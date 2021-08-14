@@ -1,0 +1,143 @@
+.thm-logo {
+	width: 25px;
+	display: inline-block;
+}
+
+/* The Modal (background) */
+.thm-modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 9999!important; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(30,30,30,0.87); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.thm-modal-content {
+	background-color: #fefefe;
+	margin: 10% auto; /* 10% from the top and centered */
+	padding: 40px;
+	border: 1px solid #888;
+	max-width: 750px; /* Could be more or less, depending on screen size */
+}
+
+/*.thm-modal-content > p {
+	font-size: 0.8em;
+}*/
+
+.thm-modal-content > h3 {
+	margin-top: 0px;
+}
+
+/* The Close Button */
+.thm-close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.thm-close:hover,
+.thm-close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.thmarch-logo {
+	margin: 0 auto!important;
+	max-width: 200px!important;
+	display: block!important;
+}
+
+.header-reset {
+	padding: 5px 0;
+}
+
+.thm-modal li, .thm-modal ul {
+	list-style: disc;
+	margin: 0;
+}
+
+.thm-modal ul {
+	padding-left: 15px;
+}
+
+.insurance-pdf {
+	font-weight: 600;
+	color: #1da1f2;
+	display: block;
+	/*font-size: 0.8em;*/
+}
+
+.thm-modal .centered {
+    margin-top: 15px;
+    text-align: center;
+	height: 50px;
+	padding: 0 20px;
+}
+
+.thm-width-50 {
+	width: 50%;
+	float: left;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.thm-accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+}
+
+.header-reset:after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+	font-size: 13px;
+	color: #777;
+	float: right;
+	margin-left: 5px;
+}
+
+.thm-active>.header-reset:after {
+	content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.thm-active, .thm-accordion:hover {
+	background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.thm-panel {
+	padding: 0 10px;
+	background-color: white;
+	display: none;
+	overflow: hidden;
+}
+
+/*.thm-panel > ul > li {
+	font-size: 0.8em;
+}*/
+
+/*.thm-accept-insurance {
+	color: #FFFFFF!important;
+	background-color: #ff91a4!important;
+}*/
+
+.et_pb_column {
+	z-index: auto!important;
+}
+
+.et_builder_inner_content {
+	z-index: auto!important;
+}
